@@ -1,0 +1,851 @@
+body
+{
+
+}
+
+/**********************************************************************************************************************/
+.page
+{
+    width: 1000px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.header
+{
+    position: relative;
+    height: 30px;
+}
+
+.header .text
+{
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+
+}
+
+.header .line
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14px;
+    border: 1px solid #BBDEFB;
+}
+
+/**********************************************************************************************************************/
+.page .report_banner
+{
+    padding: 20px;
+    text-align: center;
+    border: 1px dashed #A41D00;
+    margin: 0 0 20px 0;
+}
+/**********************************************************************************************************************/
+.page > .report
+{
+    border: 1px dashed #A41D00;
+    padding: 20px;
+    margin: 0 0 20px 0;
+}
+
+.page > .report .description
+{
+    margin: 0 0 20px 0;
+}
+
+.page > .report .label
+{
+    color: #8C8C8C;
+    margin: 0 0 5px 0;
+}
+
+.page > .report .sender a
+{
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+.page > .report .buttons
+{
+    display: flex;
+    margin: 20px 0 0 0;
+}
+
+.page > .report .buttons .button
+{
+    padding: 10px;
+    display: flex;
+    background-color: #2196F3;
+    color: white;
+    align-items: center;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+
+.page > .report .buttons .button .icon
+{
+    font-size: 24px;
+    margin: 0 5px 0 0;
+}
+
+.page > .report .buttons .button.block:hover
+{
+    background-color: #A41D00;
+}
+
+.page > .report .buttons .button.reject:hover
+{
+    background-color: #00A420;
+}
+
+/**********************************************************************************************************************/
+
+.card
+{
+    background-color: white;
+}
+
+.card .content
+{
+
+}
+
+.card .content .name
+{
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.card .content .work
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: #8C8C8C;
+}
+
+.card .content .work .icon
+{
+    font-size: 24px;
+    margin: 0 5px 0 0;
+}
+
+.card .content .location
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FF8000;
+    height: 30px;
+}
+
+.card .content .location .icon
+{
+    font-size: 24px;
+    margin: 0 5px 0 0;
+}
+
+.card .content .sphere
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card .content .sphere .tag
+{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    margin: 0 20px 0 0;
+}
+
+.card .content .sphere .tag .icon
+{
+    font-size: 24px;
+    margin: 0 5px 0 0;
+    color: #2196F3;
+}
+
+.card .content .balance
+{
+    display: flex;
+    justify-content: center;
+    line-height: 30px;
+    margin: 20px 0 0 0;
+}
+
+.card .content .balance .icon
+{
+    font-size: 24px;
+    margin: 0 5px 0 0;
+    color: #00A420;
+}
+
+/**********************************************************************************************************************/
+
+.information
+{
+    margin: 20px 0 0 0;
+}
+
+.information .content
+{
+    width: 728px;
+    margin: 20px 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    float: left;
+    height: 342px;
+}
+
+.information .content .item
+{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    border: 1px dashed #BBDEFB;
+}
+
+.information .content .item .icon
+{
+    width: 30px;
+    font-size: 20px;
+    color: #8C8C8C;
+}
+
+.information .content .item .text
+{
+    width: 170px;
+    color: #8C8C8C;
+}
+
+.information .content .item .value
+{
+    color: #2196F3;
+    word-break: keep-all;
+    max-width: calc(100% - 200px);
+    flex-grow: 3;
+}
+
+.photo
+{
+    float: left;
+    margin: 20px 0 0 0;
+}
+
+.photo .image
+{
+    width: 250px;
+    height: 250px;
+    background-image: url("../images/123.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #2196F3;
+}
+
+.photo .button
+{
+    margin: 5px 0 0 0;
+    padding: 5px 0;
+    line-height: 30px;
+    background-color: #2196F3;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.photo .button.buy:hover
+{
+    background-color: #00A420;
+}
+
+.photo .button.report:hover
+{
+    background-color: #A41D00;
+}
+
+.photo .button .icon
+{
+    font-size: 24px;
+    margin: 0 5px 0 0;
+}
+
+/**********************************************************************************************************************/
+
+.agents
+{
+    margin: 20px 0;
+    background-color: white;
+}
+
+.agents .content
+{
+    padding: 20px 0 0 0;
+}
+
+.agents .content .row
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.agents .content .item
+{
+    width: 298px;
+    padding: 10px 10px 0 10px;
+    border: 1px dashed #BBDEFB;
+}
+
+.agents .content .item .name
+{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.agents .content .item .work
+{
+    color: #8C8C8C;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.agents .content .item .position
+{
+    color: #8C8C8C;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.agents .content .item .phone
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 0;
+    color: #2196F3;
+}
+
+.agents .content .item .phone .icon
+{
+    text-align: center;
+    width: 30px;
+    margin: 0 5px 0 0;
+}
+
+.agents .content .item .email
+{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 0;
+    color: #2196F3;
+}
+
+.agents .content .item .email .icon
+{
+    text-align: center;
+    width: 30px;
+    margin: 0 5px 0 0;
+}
+
+/****************************************************************************************/
+.owner
+{
+    margin: 20px 0;
+}
+
+.owner .content
+{
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px dashed #BBDEFB;
+    display: flex;
+    align-items: center;
+}
+
+.owner .content .date
+{
+    color: #2196F3;
+    margin: 0 10px 0 0;
+}
+
+.owner .content .name
+{
+    font-weight: bold;
+    margin: 0 10px 0 0;
+}
+
+.owner .content .workplace
+{
+    color: #8C8C8C;
+    margin: 0 10px 0 0;
+}
+
+.owner .content .whitespace
+{
+    flex-grow: 1;
+}
+
+.owner .content .icon
+{
+    font-size: 24px;
+    color: #0D47A1;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+
+/****************************************************************************************/
+.material
+{
+    margin: 20px 0;
+}
+
+.material .content
+{
+    border: 1px dashed #BBDEFB;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+
+.material .title
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.material .short_description
+{
+    margin: 0 0 20px 0;
+    display: flex;
+    border: 1px solid #BBDEFB;
+    padding: 20px;
+    align-items: center;
+}
+
+.material .short_description .icon
+{
+    font-size: 120px;
+    margin: 0 20px 0 0;
+    color: #2196F3;
+}
+
+.material .description
+{
+    text-align: justify;
+    margin: 0 0 20px 0;
+}
+
+.material .tags
+{
+    display: flex;
+}
+
+.material .tags .tag
+{
+    margin: 0 10px 20px 0;
+    display: flex;
+    align-items: center;
+}
+
+.material .tags .tag .icon
+{
+    font-size: 24px;
+    color: #2196F3;
+    margin: 0 5px 0 0;
+}
+
+.material .info
+{
+    display: flex;
+}
+
+.material .info .location
+{
+    display: flex;
+    color: #8C8C8C;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.material .info .location .icon
+{
+    color: #FF8000;
+    font-size: 24px;
+}
+
+.material .info .deadline
+{
+    display: flex;
+    color: #8C8C8C;
+    align-items: center;
+
+}
+
+.material .info .deadline .icon
+{
+    color: #00A420;
+    font-size: 24px;
+}
+
+/****************************************************************************************/
+
+.report_popup.hidden
+{
+    display: none;
+}
+
+.report_popup
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.report_popup .container
+{
+    background-color: white;
+    padding: 20px;
+}
+
+.report_popup .container .title
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.report_popup .container .label
+{
+    margin: 0 0 10px 0;
+}
+
+.report_popup .container .input
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid #2196F3;
+    border-radius: 6px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+}
+
+.report_popup .container .input input
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    flex-grow: 3;
+}
+
+.report_popup .container textarea
+{
+    height: 150px;
+    width: calc(100% - 20px);
+    border: 1px solid #2196F3;
+    border-radius: 6px;
+    padding: 10px;
+    resize: vertical;
+    margin: 0 0 20px 0;
+    font-size: 1em;
+    font-family: Roboto;
+}
+
+.report_popup .container .disclaimer
+{
+    background-color: #0D47A1;
+    color: white;
+    padding: 10px;
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.report_popup .container .disclaimer .icon
+{
+    font-size: 36px;
+    color: white;
+    margin: 0 10px 0 0;
+}
+
+.report_popup .container .buttons
+{
+    display: flex;
+    justify-content: center;
+}
+
+.report_popup .container .buttons .item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196F3;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+}
+
+.report_popup .container .buttons .item:hover
+{
+    background-color: #A41D00;
+}
+
+.report_popup .container .buttons .item:first-child:hover
+{
+    background-color: #00A420;
+}
+
+.report_popup .container .buttons .icon
+{
+    font-size: 24px;
+    margin: 0 5px 0 0;
+}
+
+/**********************************************************************************/
+.report_answer_popup.hidden
+{
+    display: none;
+}
+
+.report_answer_popup
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.report_answer_popup .container
+{
+    background-color: white;
+    padding: 20px;
+}
+
+.report_answer_popup .container .title
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.report_answer_popup .container .label
+{
+    margin: 0 0 10px 0;
+}
+
+.report_answer_popup .container .input
+{
+    display: flex;
+    align-items: center;
+    border: 1px solid #2196F3;
+    border-radius: 6px;
+    margin: 0 0 20px 0;
+    padding: 10px;
+}
+
+.report_answer_popup .container .input input
+{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    flex-grow: 3;
+}
+
+.report_answer_popup .container textarea
+{
+    height: 150px;
+    width: calc(100% - 20px);
+    border: 1px solid #2196F3;
+    border-radius: 6px;
+    padding: 10px;
+    resize: vertical;
+    margin: 0 0 20px 0;
+    font-size: 1em;
+    font-family: Roboto;
+}
+
+.report_answer_popup .container .disclaimer
+{
+    background-color: #0D47A1;
+    color: white;
+    padding: 10px;
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.report_answer_popup .container .disclaimer .icon
+{
+    font-size: 36px;
+    color: white;
+    margin: 0 10px 0 0;
+}
+
+.report_answer_popup .container .buttons
+{
+    display: flex;
+    justify-content: center;
+}
+
+.report_answer_popup .container .buttons .item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196F3;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+}
+
+.report_answer_popup .container .buttons .item:hover
+{
+    background-color: #A41D00;
+}
+
+.report_answer_popup .container .buttons .item:first-child:hover
+{
+    background-color: #00A420;
+}
+
+.report_answer_popup .container .buttons .icon
+{
+    font-size: 24px;
+    margin: 0 5px 0 0;
+}
+
+/**********************************************************************************/
+.buy_popup.hidden
+{
+    display: none;
+}
+
+.buy_popup
+{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buy_popup .container
+{
+    background-color: white;
+    padding: 20px;
+}
+
+.buy_popup .container .title
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.buy_popup .balance
+{
+    display: none;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.buy_popup .balance.visible
+{
+    display: inherit;
+}
+
+.buy_popup .balance b
+{
+    color: #2196F3;
+    font-size: 22px;
+}
+
+.buy_popup .error
+{
+    display: none;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.buy_popup .error.visible
+{
+    display: inherit;
+}
+
+.buy_popup .error .icon
+{
+    font-size: 52px;
+    color: #A41D00;
+    margin: 0 0 20px 0;
+}
+
+.buy_popup .error a
+{
+    color: #2196F3;
+    text-decoration: underline;
+}
+
+.buy_popup .container .buttons
+{
+    display: flex;
+    justify-content: center;
+}
+
+.buy_popup .container .buttons .item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2196F3;
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    margin: 0 20px 0 0;
+}
+
+.buy_popup .container .buttons .item:hover
+{
+    background-color: #A41D00;
+}
+
+.buy_popup .container .buttons .item:first-child:hover
+{
+    background-color: #00A420;
+}
+
+.buy_popup .container .buttons .icon
+{
+    font-size: 24px;
+    margin: 0 5px 0 0;
+}

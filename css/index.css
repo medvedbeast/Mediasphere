@@ -1,0 +1,256 @@
+/************************************************************************************************/
+.background
+{
+    /*height: 100vh;*/
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url("../images/index/index_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.background div
+{
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+/************************************************************************************************/
+.page-1 a
+{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.page-1 a:visited
+{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.page-1 .title
+{
+    margin: 20vh auto 0 auto;
+    font-size: 56px;
+    font-weight: bold;
+    text-align: center;
+    color: #2196F3;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+.page-1 .description
+{
+    color: white;
+    margin: 15vh auto 0 auto;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+.page-1 .description b
+{
+    color: #2196F3;
+    font-weight: bold;
+}
+
+.page-1 .buttons
+{
+    display: table;
+    margin: 15vh auto 0 auto;
+    color: white;
+}
+
+.page-1 .buttons .login, .page-1 .buttons .register
+{
+    width: 200px;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+    background-color: #2196F3;
+    border-radius: 6px;
+}
+
+.page-1 .buttons .login:hover, .page-1 .buttons .register:hover
+{
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12), 0px 2px 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.page-1 .buttons .separator
+{
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 25px;
+    float: left;
+}
+
+.page-1 .more
+{
+    margin: 15vh;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+}
+
+/************************************************************************************************/
+
+.page-2
+{
+    margin: 20vh auto 0 auto;
+}
+
+.page-2 > .header
+{
+    margin: 20vh 0 0 0;
+    text-align: center;
+    font-size: 36px;
+    color: #2196F3;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+.page-2 .container
+{
+    display: flex;
+    justify-content: center;
+    margin: 15vh 0 0 0;
+}
+
+.page-2 .container .row
+{
+    margin: 5vh 5vh 0 0;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+.page-2 .container .item
+{
+    z-index: 1;
+    width: 350px;
+    height: 350px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+}
+
+.page-2 .container .item.padded
+{
+    margin: 0 5vh 0 0;
+}
+
+.page-2 .container .item .header
+{
+    position: absolute;
+    bottom: 50%;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    padding: 0 0 25px 0;
+    border-bottom: 2px solid #2196F3;
+    font-size: 22px;
+    color: #0D47A1;
+}
+
+.page-2 .container .item .description
+{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    padding: 25px 0 0 0;
+    text-align: center;
+    overflow: hidden;
+    word-break: normal;
+}
+
+/************************************************************************************************/
+
+.page-3
+{
+    margin: 20vh 0 20vh 0;
+}
+
+.page-3 .header
+{
+    text-align: center;
+    font-size: 36px;
+    color: #2196F3;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+.page-3 .container
+{
+    margin: 10vh auto 0 auto;
+    background-color: white;
+}
+
+.page-3 .container .row
+{
+    margin: 0 auto 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-3 .container .row .item
+{
+    width: 140px;
+    height: 140px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/************************************************************************************************/
+@media all and (max-width: 1024px)
+{
+    .page-1 .title
+    {
+        font-size: 36px;
+    }
+
+    .page-2
+    {
+        width: 100%;
+    }
+
+    .page-2 .row
+    {
+        width: 100% !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: 0 !important;
+    }
+
+    .page-2 .container .item, .page-2 .container .item.padded
+    {
+        margin: 5vh 0 0 0 !important;
+    }
+
+    .page-3 .container .row
+    {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 1366px)
+{
+    .page-2 .container
+    {
+        display: block !important;
+        margin: 0 !important;
+    }
+
+    .page-2 .row
+    {
+        float: none !important;
+        margin: 0 !important;
+        margin: 5vh 0 0 0 !important;
+    }
+}

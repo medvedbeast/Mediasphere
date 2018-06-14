@@ -1,0 +1,395 @@
+body > .content
+{
+    width: 1000px;
+    margin: 20px auto 0 auto;
+}
+
+/**********************************************************************************************************************/
+.header
+{
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 0 20px 0;
+}
+
+.header.indented
+{
+    margin: 20px 0 0 0;
+}
+
+.header .text
+{
+    position: absolute;
+    text-align: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: calc(50% - 125px);
+    width: 250px;
+    background-color: white;
+}
+
+.header .line
+{
+    height: 0;
+    border: 1px solid #BBDEFB;
+    border-left: 0;
+    border-right: 0;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+/**********************************************************************************************************************/
+.navigation
+{
+    display: flex;
+    margin: 20px 0 20px 0;
+    align-items: center;
+}
+
+.navigation .search
+{
+    width: 350px;
+    border: 1px solid #2196F3;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation .search .icon
+{
+    font-size: 24px;
+    color: #8C8C8C;
+    margin: 0 10px;
+    line-height: 30px;
+}
+
+.navigation .search input
+{
+    flex-grow: 1;
+    margin: 0 10px 0 0;
+    padding: 0;
+    border: 0;
+    line-height: 30px;
+}
+
+.navigation .page_controlls
+{
+    display: flex;
+    line-height: 30px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.navigation .page_controlls .icon
+{
+    font-size: 24px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+    margin: 0 0 0 10px
+}
+
+.navigation .page_controlls .text
+{
+    margin: 0 0 0 10px;
+}
+
+/********************************************************************/
+
+.filter
+{
+    margin: 0 0 20px 0;
+}
+
+.filter .categories
+{
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px 0;
+    overflow: hidden;
+    border: 1px solid #BBDEFB;
+}
+
+.filter .categories .item
+{
+    width: 250px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.filter .categories .item.selected
+{
+    background-color: #2196F3;
+    color: white;
+}
+
+.filter .categories .item .icon
+{
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.filter .input
+{
+    margin: 0 0 20px 20px;
+    border: 1px solid #2196F3;
+    border-radius: 6px;
+    display: flex;
+    overflow: auto;
+    float: left;
+    width: 318px;
+}
+
+.filter .input .icon
+{
+    line-height: 30px;
+    color: #8C8C8C;
+    font-size: 24px;
+    margin: 5px 10px;
+}
+
+.filter .input input
+{
+    flex-grow: 3;
+    margin: 0;
+    border: 0;
+}
+
+.filter .input#keywords
+{
+    width: 658px;
+    margin: 0;
+}
+
+.filter .button
+{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    cursor: pointer;
+    border: 1px dashed #BBDEFB;
+}
+
+.filter .button.hidden
+{
+    display: none;
+}
+
+.filter .button .text
+{
+    margin: 0 10px;
+}
+
+.filter .scope
+{
+    margin: 0 0 20px 0;
+    display: none;
+}
+
+.filter .scope.visible
+{
+    display: block;
+}
+
+.filter .scope .column
+{
+    width: 250px;
+    float: left;
+}
+
+.filter .scope .column .item
+{
+    display: flex;
+    cursor: pointer;
+}
+
+.filter .scope .column .item .icon
+{
+    line-height: 30px;
+    font-size: 24px;
+    margin: 0 10px;
+    color: #8C8C8C;
+}
+
+.filter .scope .column .item .text
+{
+    margin: 6.5px 0 0 0;
+}
+
+/**********************************************************************************************************************/
+
+.results .row
+{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+.results .contact
+{
+    width: 215px;
+    background-color: white;
+    padding: 10px 10px 0 10px;
+    transition: all 0.2s ease-in;
+    border: 1px dashed #BBDEFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.results .contact.padded
+{
+    margin: 0 0 0 20px;
+}
+
+.results .contact .image
+{
+    width: 193px;
+    height: 193px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #BBDEFB;
+    border-radius: 50%;
+}
+
+.results .contact .title
+{
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.results .contact .work
+{
+    color: #8C8C8C;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.results .contact .location
+{
+    color: #FF8000;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+
+.results .contact .location .icon
+{
+    margin: 0 5px 0 0;
+}
+
+.results .contact .tags
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.results .contact .tags .tag
+{
+    color: #2196F3;
+    margin: 0 10px 10px 0;
+}
+
+.results .idea
+{
+    width: 470px;
+    border: 1px dashed #BBDEFB;
+    padding: 10px;
+}
+
+.results .idea.padded
+{
+    margin: 0 0 0 20px;
+}
+
+.results .idea .title
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.results .idea .description
+{
+    text-align: justify;
+    margin: 0 0 10px 0;
+}
+
+.results .idea .tags
+{
+    display: flex;
+}
+
+.results .idea .tags .tag
+{
+    color: #2196F3;
+    margin: 0 10px 10px 0;
+}
+
+.results .idea .info
+{
+    display: flex;
+}
+
+.results .idea .info .location
+{
+    display: flex;
+    color: #8C8C8C;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.results .idea .info .location .icon
+{
+    color: #FF8000;
+    font-size: 24px;
+}
+
+.results .idea .info .deadline
+{
+    display: flex;
+    color: #8C8C8C;
+    align-items: center;
+
+}
+
+.results .idea .info .deadline .icon
+{
+    color: #00A420;
+    font-size: 24px;
+}
+
+.results .empty
+{
+    height: 590px;
+    border: 1px dashed #A41D00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.results .empty .icon
+{
+    font-size: 52px;
+    color: #A41D00;
+    margin: 0 0 5px 0;
+}
+
+/**********************************************************************************************************************/

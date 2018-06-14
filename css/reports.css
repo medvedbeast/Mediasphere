@@ -1,0 +1,166 @@
+.page
+{
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.header
+{
+    position: relative;
+    height: 30px;
+}
+
+.header .text
+{
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+
+}
+
+.header .line
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14px;
+    border: 1px solid #BBDEFB;
+}
+
+/*******************************************************************/
+
+.group .content
+{
+    margin: 20px 0;
+}
+
+.group .navigation
+{
+    display: flex;
+    margin: 20px 0 20px 0;
+    align-items: center;
+}
+
+.group .navigation .search
+{
+    width: 350px;
+    border: 1px solid #2196F3;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.group .navigation .search .icon
+{
+    font-size: 24px;
+    color: #8C8C8C;
+    margin: 0 10px;
+    line-height: 30px;
+}
+
+.group .navigation .search input
+{
+    flex-grow: 1;
+    margin: 0 10px 0 0;
+    padding: 0;
+    border: 0;
+    line-height: 30px;
+}
+
+.group .navigation .page_controlls
+{
+    display: flex;
+    line-height: 30px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.group .navigation .page_controlls .icon
+{
+    font-size: 24px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+    margin: 0 0 0 10px
+}
+
+.group .navigation .page_controlls .text
+{
+    margin: 0 0 0 10px;
+}
+
+#results .empty
+{
+    height: 308px;
+    border: 1px dashed #A41D00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#results .empty .icon
+{
+    font-size: 52px;
+    color: #A41D00;
+    margin: 0 0 5px 0;
+}
+
+/********************************************************************/
+#reports .header .text
+{
+    width: 250px;
+    left: calc(50% - 125px);
+}
+
+.group .content .item
+{
+    padding: 10px;
+    border: 1px dashed #BBDEFB;
+    display: flex;
+    margin: 0 0 20px 0;
+    align-items: center;
+}
+
+.group .content .item .date
+{
+    color: #2196F3;
+    margin: 0 10px 0 0;
+}
+
+.group .content .item .name
+{
+    font-weight: bold;
+    margin: 0 10px 0 0;
+}
+
+.group .content .item .workplace
+{
+    color: #8C8C8C;
+    margin: 0 10px 0 0;
+}
+
+.group .content .item .whitespace
+{
+    flex-grow: 1;
+}
+
+.group .content .item .icon
+{
+    font-size: 24px;
+    color: #0D47A1;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+}
+
+/********************************************************************/
+#user_list .header .text
+{
+    width: 250px;
+    left: calc(50% - 125px);
+}

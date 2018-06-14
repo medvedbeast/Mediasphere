@@ -1,0 +1,169 @@
+.page
+{
+    width: 1000px;
+    margin: 20px auto;
+}
+
+.navigation
+{
+    display: flex;
+    margin: 20px 0 20px 0;
+    align-items: center;
+}
+
+.navigation .search
+{
+    width: 350px;
+    border: 1px solid #2196F3;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.navigation .search .icon
+{
+    font-size: 24px;
+    color: #8C8C8C;
+    margin: 0 10px;
+    line-height: 30px;
+}
+
+.navigation .search input
+{
+    flex-grow: 1;
+    margin: 0 10px 0 0;
+    padding: 0;
+    border: 0;
+    line-height: 30px;
+}
+
+.navigation .page_controlls
+{
+    display: flex;
+    line-height: 30px;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.navigation .page_controlls .icon
+{
+    font-size: 24px;
+    width: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: white;
+    margin: 0 0 0 10px
+}
+
+.navigation .page_controlls .text
+{
+    margin: 0 0 0 10px;
+}
+
+/**********************************************************************************************************************/
+
+.header
+{
+    position: relative;
+    height: 30px;
+    margin: 0 0 20px 0;
+}
+
+.header .text
+{
+    width: 250px;
+    position: absolute;
+    left: calc(50% - 125px);
+    padding: 0 10px 0 0;
+    line-height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.header .line
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14px;
+    border: 1px solid #BBDEFB;
+}
+
+/**********************************************************************************************************************/
+#results .row
+{
+    display: flex;
+    margin: 0 0 20px 0;
+}
+
+#results .contact
+{
+    width: 215px;
+    background-color: white;
+    padding: 10px 10px 0 10px;
+    transition: all 0.2s ease-in;
+    border: 1px dashed #BBDEFB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#results .contact.padded
+{
+    margin: 0 0 0 20px;
+}
+
+#results .contact .image
+{
+    width: 193px;
+    height: 193px;
+    background-image: url("../images/123.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 1px solid #BBDEFB;
+    border-radius: 50%;
+}
+
+#results .contact .title
+{
+    text-align: center;
+    margin: 20px 0 10px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#results .contact .work
+{
+    color: #8C8C8C;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+#results .contact .location
+{
+    color: #FF8000;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 10px 0;
+}
+
+#results .contact .location .icon
+{
+    margin: 0 5px 0 0;
+}
+
+#results .contact .tags
+{
+    display: flex;
+    justify-content: center;
+}
+
+#results .contact .tags .tag
+{
+    color: #2196F3;
+    margin: 0 10px 10px 0;
+}
+
+/**********************************************************************************************************************/

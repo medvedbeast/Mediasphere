@@ -1,0 +1,62 @@
+[04-Jul-2017 11:11:53 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'patrioty_admin4'@'localhost' (using password: YES) in /home/applingi/mediasphere/core/database.php on line 35
+[04-Jul-2017 11:11:53 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[04-Jul-2017 11:18:50 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'patrioty_admin4'@'localhost' (using password: YES) in /home/applingi/mediasphere/core/database.php on line 35
+[04-Jul-2017 11:18:50 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[04-Jul-2017 11:19:18 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'patrioty_admin4'@'localhost' (using password: YES) in /home/applingi/mediasphere/core/database.php on line 35
+[04-Jul-2017 11:19:18 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[04-Jul-2017 11:19:22 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'patrioty_admin4'@'localhost' (using password: YES) in /home/applingi/mediasphere/core/database.php on line 35
+[04-Jul-2017 11:19:22 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[04-Jul-2017 11:20:49 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'patrioty_admin4'@'localhost' (using password: YES) in /home/applingi/mediasphere/core/database.php on line 35
+[04-Jul-2017 11:20:49 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 11:13:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/applingi/mediasphere/core/database.php on line 35
+[08-Nov-2017 11:13:12 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 11:13:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/applingi/mediasphere/core/database.php on line 35
+[08-Nov-2017 11:13:12 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 11:13:11 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/applingi/mediasphere/core/database.php on line 35
+[08-Nov-2017 11:13:12 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 11:13:29 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/applingi/mediasphere/core/database.php on line 35
+[08-Nov-2017 11:13:29 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 11:13:51 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/applingi/mediasphere/core/database.php on line 35
+[08-Nov-2017 11:13:51 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 11:13:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/applingi/mediasphere/core/database.php on line 35
+[08-Nov-2017 11:13:55 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 11:13:59 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/applingi/mediasphere/core/database.php on line 35
+[08-Nov-2017 11:13:59 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 11:14:05 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/applingi/mediasphere/core/database.php on line 35
+[08-Nov-2017 11:14:05 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 11:14:09 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/applingi/mediasphere/core/database.php on line 35
+[08-Nov-2017 11:14:09 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 11:14:25 UTC] PHP Warning:  mysqli_connect(): (HY000/2003): Can't connect to MySQL server on '127.0.0.1' (111) in /home/applingi/mediasphere/core/database.php on line 35
+[08-Nov-2017 11:14:25 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 36
+[08-Nov-2017 12:01:04 UTC] PHP Notice:  Trying to get property of non-object in /home/applingi/mediasphere/core/database.php on line 54
+[08-Nov-2017 12:01:11 UTC] PHP Notice:  Trying to get property of non-object in /home/applingi/mediasphere/core/database.php on line 54
+[10-Dec-2017 16:11:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/applingi/mediasphere/core/database.php on line 15
+[10-Dec-2017 16:11:27 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 16
+[10-Dec-2017 16:11:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/applingi/mediasphere/core/database.php on line 15
+[10-Dec-2017 16:11:27 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 16
+[10-Dec-2017 16:11:27 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/applingi/mediasphere/core/database.php on line 15
+[10-Dec-2017 16:11:27 UTC] PHP Warning:  mysqli_select_db() expects parameter 1 to be mysqli, boolean given in /home/applingi/mediasphere/core/database.php on line 16
+[10-Dec-2017 16:11:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/applingi/mediasphere/core/wrapper.php on line 10
+[10-Dec-2017 16:48:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/applingi/mediasphere/core/wrapper.php on line 190
+[10-Dec-2017 16:50:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/applingi/mediasphere/core/wrapper.php on line 190
+[10-Dec-2017 16:51:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/applingi/mediasphere/core/wrapper.php on line 190
+[10-Dec-2017 16:51:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/applingi/mediasphere/core/wrapper.php on line 190
+[10-Dec-2017 16:51:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/applingi/mediasphere/core/wrapper.php on line 190
+[10-Dec-2017 18:06:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 761
+[10-Dec-2017 18:06:15 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 779
+[10-Dec-2017 18:16:15 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 761
+[10-Dec-2017 18:16:15 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 779
+[10-Dec-2017 18:16:34 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 779
+[10-Dec-2017 18:16:53 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 779
+[10-Dec-2017 18:17:18 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 761
+[10-Dec-2017 18:17:18 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 779
+[10-Dec-2017 18:18:46 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 761
+[10-Dec-2017 18:18:46 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 779
+[10-Dec-2017 18:19:28 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 779
+[10-Dec-2017 18:19:28 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 761
+[10-Dec-2017 18:25:42 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 821
+[10-Dec-2017 18:26:09 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 821
+[10-Dec-2017 18:27:13 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 821
+[10-Dec-2017 18:28:10 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 829
+[10-Dec-2017 21:05:36 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 317
+[10-Dec-2017 21:07:17 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/applingi/mediasphere/core/database.php on line 317

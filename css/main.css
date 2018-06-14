@@ -1,0 +1,373 @@
+body
+{
+
+}
+
+.page
+{
+    width: 1000px;
+    margin: 20px auto 0 auto;
+}
+
+/**********************************************************************************************************************/
+.search
+{
+}
+
+.search .header
+{
+    position: relative;
+    height: 30px;
+    margin: 0 0 20px 0;
+}
+
+.search .header .text
+{
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+    padding: 0 10px 0 0;
+    line-height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.search .header .line
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14px;
+    border: 1px solid #BBDEFB;
+}
+
+.search .input
+{
+    display: flex;
+    border: 1px solid #2196F3;
+    border-radius: 6px;
+}
+
+.search .input > .icon
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px 10px;
+    color: #8C8C8C;
+}
+
+.search .input input
+{
+    float: left;
+    line-height: 30px;
+    border: 0;
+    margin: 0;
+    flex-grow: 3;
+}
+
+.search .input .button
+{
+    line-height: 40px;
+    display: flex;
+    padding: 0 0 0 30px;
+    background-color: #2196F3;
+    color: white;
+    cursor: pointer;
+}
+
+.search .input .button > .icon
+{
+    line-height: 30px;
+    text-align: center;
+    font-size: 24px;
+    margin: 5px 10px;
+    color: white;
+}
+
+/**********************************************************************************************************************/
+
+.selector
+{
+    margin: 20px 0 0 0;
+}
+
+.selector .header
+{
+    position: relative;
+    height: 30px;
+    margin: 0 0 20px 0;
+}
+
+.selector .header .text
+{
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+    padding: 0 10px 0 0;
+    line-height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.selector .header .line
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14px;
+    border: 1px solid #BBDEFB;
+}
+
+.selector .content
+{
+    background-color: #64B5F6;
+}
+
+.selector .column
+{
+    float: left;
+    width: 25%;
+    background-color: #64B5F6;
+    height: 250px;
+    display: table;
+    color: white;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+
+.selector .column:hover
+{
+    border-radius: 50%;
+}
+
+.selector .column[color="2"]
+{
+    background-color: #2196F3;
+}
+
+.selector .column[color="3"]
+{
+    background-color: #1976D2;
+}
+
+.selector .column[color="4"]
+{
+    background-color: #0D47A1;
+}
+
+.selector .column .text
+{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 20px;
+}
+
+/**********************************************************************************************************************/
+
+.popular
+{
+    margin: 20px 0 0 0;
+    background-color: white;
+}
+
+.popular .header
+{
+    position: relative;
+    height: 30px;
+    margin: 0 0 20px 0;
+}
+
+.popular .header .text
+{
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+    padding: 0 10px 0 0;
+    line-height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.popular .header .line
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14px;
+    border: 1px solid #BBDEFB;
+}
+
+.popular .container
+{
+    display: flex;
+}
+
+.popular .container .item
+{
+    position: relative;
+    overflow: hidden;
+    width: 182px;
+    height: 182px;
+    cursor: pointer;
+    border: 1px dashed #BBDEFB;
+}
+
+.popular .container .item.indented
+{
+    margin: 0 0 0 20px;
+}
+
+.popular .container .item .face
+{
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.popular .container .item .back
+{
+    backface-visibility: hidden;
+    position: absolute;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);;
+    top: 100%;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.popular .container .item .back .name
+{
+    color: #2196F3;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.popular .container .item .back .description
+{
+}
+
+.popular .container .item .back.visible
+{
+    top: 0;
+}
+
+/**********************************************************************************************************************/
+
+.ideas
+{
+    margin: 20px 0;
+    background-color: white;
+
+}
+
+.ideas .header
+{
+    position: relative;
+    height: 30px;
+}
+
+.ideas .header .text
+{
+    width: 200px;
+    position: absolute;
+    left: calc(50% - 100px);
+    padding: 0 10px 0 0;
+    line-height: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+.ideas .header .line
+{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 14px;
+    border: 1px solid #BBDEFB;
+}
+
+.ideas .container
+{
+    margin: 20px 0 0 0;
+}
+
+.ideas .container .row
+{
+    display: flex;
+}
+
+.ideas .item
+{
+    width: 470px;
+    border: 1px dashed #BBDEFB;
+    padding: 10px;
+    margin: 0 0 20px 0;
+}
+
+.ideas .item.padded
+{
+    margin: 0 0 0 20px;
+}
+
+.ideas .item .title
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+
+.ideas .item .description
+{
+    text-align: justify;
+    margin: 0 0 10px 0;
+}
+
+.ideas .item .tags
+{
+    display: flex;
+}
+
+.ideas .item .tags .tag
+{
+    color: #2196F3;
+    margin: 0 10px 10px 0;
+}
+
+.ideas .item .info
+{
+    display: flex;
+}
+
+.ideas .item .info .location
+{
+    display: flex;
+    color: #8C8C8C;
+    align-items: center;
+    flex-grow: 3;
+}
+
+.ideas .item .info .location .icon
+{
+    color: #FF8000;
+    font-size: 24px;
+}
+
+.ideas .item .info .deadline
+{
+    display: flex;
+    color: #8C8C8C;
+    align-items: center;
+
+}
+
+.ideas .item .info .deadline .icon
+{
+    color: #00A420;
+    font-size: 24px;
+}
